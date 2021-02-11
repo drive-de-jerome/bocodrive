@@ -320,10 +320,9 @@ html {
 }
 body {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Lobster", Arial, sans-serif;
-        /* font-family: 'Lobster', arial;*/
 	font-size: 1rem;
 	line-height: 1.5;
-	color: #808080;
+	color: #000000;/*#808080*/
 	background-color: #fff;
 }
 [tabindex="-1"]:focus {
@@ -671,7 +670,7 @@ pre {
 	margin-top: 0;
 	margin-bottom: 1rem;
 	font-size: 90%;
-	color: #808080;
+	color: #000000;/*#808080*/
 }
 pre code {
 	padding: 0;
@@ -2032,7 +2031,7 @@ pre code {
 }
 .thead-inverse th {
 	color: #fff;
-	background-color: #808080;
+	background-color: #000000;/*#808080*/
 }
 .thead-default th {
 	color: #878787;
@@ -2040,7 +2039,7 @@ pre code {
 }
 .table-inverse {
 	color: #f6f6f6;
-	background-color: #808080;
+	background-color: #000000;/*#808080*/
 }
 .table-inverse th,
 .table-inverse td,
@@ -3129,7 +3128,7 @@ tbody.collapse.in {
 	padding: 0.5rem 0;
 	margin: 0.125rem 0 0;
 	font-size: 1rem;
-	color: #808080;
+	color: #000000;/*#808080*/
 	text-align: left;
 	list-style: none;
 	background-color: #fff;
@@ -3149,7 +3148,7 @@ tbody.collapse.in {
 	padding: 3px 1.5rem;
 	clear: both;
 	font-weight: normal;
-	color: #808080;
+	color: #000000;/*#808080*/
 	text-align: inherit;
 	white-space: nowrap;
 	background: none;
@@ -3166,7 +3165,7 @@ tbody.collapse.in {
 .dropdown-item.active:hover {
 	color: #fff;
 	text-decoration: none;
-	background-color: #808080;
+	background-color: #000000;/*#808080*/
 	outline: 0;
 }
 .dropdown-item.disabled,
@@ -3769,7 +3768,7 @@ tbody.collapse.in {
 .nav-pills .nav-item.open .nav-link:hover {
 	color: #fff;
 	cursor: default;
-	background-color: #808080;
+	background-color: #000000;/*#808080*/
 }
 .nav-stacked .nav-item {
 	display: block;
@@ -5737,7 +5736,7 @@ a.bg-danger:hover {
 	background-color: #ff1919 !important;
 }
 .bg-inverse {
-	background-color: #808080 !important;
+	background-color: #000000/*#808080*/ !important;
 }
 a.bg-inverse:focus,
 a.bg-inverse:hover {
@@ -6180,7 +6179,7 @@ a.text-danger:hover {
 	color: #ff1919 !important;
 }
 .text-gray-dark {
-	color: #808080 !important;
+	color: #000000/*#808080*/ !important;
 }
 a.text-gray-dark:focus,
 a.text-gray-dark:hover {
@@ -6316,13 +6315,12 @@ html {
 	height: 100%;
 }
 body {
-	/*font-family: 'Poppins', sans-serif;*/
         font-family: 'Lobster', arial;
 	font-size: 12px;
 	font-weight: 400;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	color: #808080;
+	color: #000000;/*#808080*/
 	line-height: 26px;
 	background: #ffffff url(../img/bocodrive/body-bkg.jpg) repeat fixed center center;
 	position: relative;
@@ -6852,7 +6850,6 @@ small.value {
     color: #fff;
     font-size: 13px;
     font-weight: 400;
-    /*font-family: 'Poppins', sans-serif;*/
     font-family: 'Lobster', arial;
 }
 .search-widget form input[type=text]:focus {
@@ -7017,7 +7014,7 @@ small.value {
 	font-size: 16px;
 }
 .top-menu a[data-depth="0"] {
-    padding: 15px 15px 15px;
+    padding: 15px 20px 15px;
     font: 500 14px/20px 'Lobster', sans-serif;
     color: #ffffff;
     display: block;
@@ -8712,7 +8709,6 @@ body#checkout #gift_message {
     text-decoration: none;
     font-weight: 400;
     text-transform: capitalize;
-    /*font-family: 'Poppins', sans-serif;*/
     font-family: 'Lobster', arial;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -10802,8 +10798,8 @@ body#checkout #gift_message {
 	position: relative;
 }
 .images-container .js-qv-mask .thumb-container .thumb {
-	border: 1px solid transparent
-	margin: 0 0 10px;
+	border: 1px solid transparent;
+        margin: 0 0 10px;
 	width: 95px;
 }
 .images-container .js-qv-mask .thumb-container .thumb.selected,
@@ -13560,10 +13556,11 @@ ul.product-flags li.new {
 
 #czservicecmsblock .service_container .service-area .service-fourth .service-content {
     margin-left: 35px;
-	text-align: left;
+    margin-right: 20px;
+    text-align: left;
 }
 #czservicecmsblock .service_container .service-area .service-fourth .service-content .service-heading {
-	font-weight: 500;
+    font-weight: 500;
     font-size: 14px;
     line-height: 22px;
     color: #000000;
@@ -14104,7 +14101,7 @@ ul.product-flags li.new {
 }
 #header .header-top .header-cms-block .header-cms .shop-time {
     font-size: 13px;
-    color: #808080;
+    color: #000000;/*#808080*/
     line-height: 16px;
 }
 
