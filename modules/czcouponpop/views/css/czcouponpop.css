@@ -1,0 +1,449 @@
+
+.fa {
+	display: inline-block;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+    
+}
+.fa-time:before {
+  content: "\f00d";
+}
+#overlay, #newsletter-main{
+    display: none;
+}
+.newsletter-main {
+    position: fixed;
+    right: 0;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    margin: 0 auto;
+    height: 400px;
+    min-width: 290px;
+    max-width: 860px;
+    width: 90%;
+    z-index: 99991;
+    background-color: #fff;
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.right-block {
+    width: 56.9%;
+    float: left;
+    padding: 0 40px;
+}
+#overlay{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+    opacity:0.7;
+    filter:alpha(opacity=80);
+    background: #000;
+    width: 100%;
+    height: 100%;
+}
+.left-block {
+    width: 43.1%;
+    float: left;
+}
+.left-block .cz-newsletter-popup img{
+    width: 100%;
+}
+.cz-newsletter-popup .inner{
+    position:  relative;
+	text-align:left;
+	width: 100%;
+    float: right;
+	}
+.newsletter-form .checkbox .checker{float:none;display:inline-block;}
+.dashed-border{
+    width: 100%;
+    float: left;
+    border: 1px solid #afafaf;
+    border-style: dashed;
+    position: relative;
+}
+.dashed-border:before {
+    content: "";
+    background-image: url(../img/shears.svg);
+    width: 23px;
+    height: 23px;
+    position: absolute;
+    transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    left: 10px;
+    bottom: -12px;
+}
+.cz-show-newsletter-popup{display:none;}
+.coupon-side{
+    width: 100%;
+    float: left; 
+    text-align: center;
+    margin-top: 15px;
+}
+.cz-newsletter-popup-close {
+    position: relative;
+}
+.cz-newsletter-popup-close .cz_close{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    top: 0px;
+    right: 0px;
+    background-color: #000;
+}
+.cz_close .clear {
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    left: 5px;
+    top: 3px;
+}
+.newsletter-content {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.innerbox-newsletter .newsletter-text p {
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #555;
+    letter-spacing: 0.3px;
+    line-height: 22px;
+    font-weight: 400;
+    text-transform: none;
+}
+.innerbox-newsletter .newsletter_title {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 50px 0 30px;
+    color: #000;
+}
+.cz-newsletter-popup .inner .newsletter-content{
+   	padding-left:25px;
+}
+.g-banner-popup{margin-top:0px;}
+.g-banner-popup h3{font-family:poppins;font-size:42px;margin-bottom:5px;margin-top:0;color:#f12a43;font-weight:600;text-transform:capitalize;}
+.g-social > span{display:inline-block;margin-top:8px;}
+.g-social > ul{display:inline-block;}
+.g-banner-popup > p{margin-top:10px;margin-bottom:10px;font-size:13px;text-transform:uppercase;color:#000;font-weight:500;}
+.g-social ul li{display:inline-block;margin-left:22px;text-align:center;}
+.g-social ul li:before, .g-social ul li.facebook, .g-social ul li.twitter, .g-social ul li.rss, .g-social ul li.google-plus {background:none;}
+.g-social ul li a{color:#fff;font-size:0;}
+.g-social ul li a span{display:none;}
+.g-social ul li a:before{content:"\f09a";font-family:"FontAwesome";font-size:24px;color:#000;}
+.g-social ul li.twitter a:before{content:"\f099";}
+.g-social ul li.rss a:before{content:"\f09e";}
+.g-social ul li.google-plus a:before{content:"\f0d5";}
+.g-social ul li:hover a{color:#2f58ef;}
+.newsletter-checkbox{width: 100%; float: left;color:#fff;text-align: right; text-transform: initial;}
+.checkbox{    color: #808080;
+    position: absolute;
+    font-size: 13px;
+    letter-spacing: 0.8px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    bottom: 0;
+    right: 10px;}
+#coupon-text-before,#coupon-text-after{
+    width: 100%;
+    float: left;
+    font-size:14px;
+    font-weight:400;
+    color:#000;
+    letter-spacing: 0.6px;
+    line-height: 24px;
+    margin: 5px 0;
+    text-transform: initial;
+}
+@font-face {
+    font-family: "UTM banqueB";
+    src: url("fonts/UTM BanqueB.ttf") format("truetype");
+}
+@font-face {
+    font-family: "UTM banqueR";
+    src: url("fonts/UTM BanqueR.ttf") format("truetype");
+}
+@font-face {
+    font-family: "UTM Bitsumishi Pro";
+    src: url("fonts/UTM Bitsumishi Pro.ttf") format("truetype");
+}
+
+
+.newsletter-input-email{
+    color: #000;
+}
+#regisNewsletterMessage{
+    font-size: 13px;
+}
+#regisNewsletterMessage .alert-danger,
+#regisNewsletterMessage .alert-warning,
+#regisNewsletterMessage .alert-success {
+    margin: 0;
+    padding: 3px 10px;
+    width: 100%;
+    float: left;
+    font-size: 13px;
+    line-height: 26px;    
+    text-align: center;
+}
+#newsletter-main .newsletter-form{
+    width: 100%;
+    float: left;
+}
+.newsletter-input-email{
+    background: #fff;
+    padding: 7px 16px;
+    border: 1px solid #ccc;
+    height: 40px;
+    width: 100%;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.newsletter-input-email::placeholder{
+    color: #000;
+}
+.newsletter-input-email:focus{
+    border-color: #ccc;
+}
+.newsletter-form .button{
+    background: #ddd;
+    border: none;
+    font-size: 13px;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    padding: 9px 16px;
+    color: #000 !important;
+    text-transform: uppercase;
+    height: 34px;
+    line-height: initial;
+    border-radius: 0px;
+}
+.newsletter-form .button .arrow_forward {
+    position: relative;
+    display: none;
+}
+.newsletter-popup-form
+{
+    width: 100%;
+	position:relative;
+    margin:0 auto;
+	background: #fff;
+    float: left;
+    margin-bottom: 15px;
+}
+@media (min-width: 768px){
+    p.text-n1{
+	    color: #666;
+	    font-family: sans-serif;
+	}
+	p.text-n2{
+	    font-family: UTM banqueR;
+	    font-size: 48px;
+	    height: 40px;
+	    line-height: 40px;
+	}
+	p.text-n3{
+	    height: 60px;
+	    overflow: hidden;
+	    line-height: 60px;
+	    margin-top: 15px;
+	}
+	p.text-n3 strong{
+	    color: #E52E04;
+	    font-family: UTM Bitsumishi Pro;
+	    font-size: 92px;   
+	}
+	span.text-4{
+	    margin-left: 10px;
+	    font-size: 32px;
+	}
+	p.text-n6{
+	    font-family: sans-serif;
+	    margin-bottom: 0px;
+	}
+/*	.cz-show-newsletter-popup {
+    background-position: 4px 4px;
+    border: 0 solid #FFF!important;
+    border-radius: 5px 5px 0 0;
+    box-shadow: -2px 0 2px rgba(0,0,0,0.2);
+    cursor: pointer;
+    font-family: Arial,Helvetica,sans-serif;
+    height: 25px;
+    margin:-60px 0 0 0;
+    width: 126px;
+    padding: 0 20px 49px 0;
+    position: fixed;
+    right: -60px;
+	top:50%;
+    transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    white-space: nowrap;
+    z-index: 10000;
+    display: block;
+    background-repeat: no-repeat;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+	background-color:#5c6c43;
+}
+.cz-coupon-small {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    width: 129px;
+    margin: 16px auto 20px!important;position: relative;
+}
+.cz-coupon-small .shears-small {
+    background-image: url(../img/shears1.png);
+    background-repeat: no-repeat;
+    height: 37px;
+    left: 116px;
+    position: absolute;
+    top: -28px;
+    width: 41px;
+    z-index: 11;
+	
+}
+.cz-coupon-small .dashes-d {
+    border: 2px dashed rgba(0, 0, 0, 0.4);
+    height: 47px;
+    left: 5px;
+    position: absolute;
+    top: -11px;
+    width: 136px;
+}
+.cz-coupon-small .dashes-b {
+    border: 2px dashed rgba(255, 255, 255, 0.1);
+    height: 47px;
+    left: 5px;
+    position: absolute;
+    top: -11px;
+    width: 136px;
+}
+.share-coupon-small-wrapper {
+    height: 50px;
+    left: -15px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 180px;
+}
+.share-coupon-small-wrapper a,.share-coupon-small-wrapper a:hover{color:#fff;}
+*/
+}
+@media (max-width: 991px){
+    .left-block {
+        display: none;
+    }
+    .right-block {
+        width: 100%;
+    }
+    .newsletter-popup-form {width: 100%;}
+    .newsletter-main {
+        max-width: 100%;
+        width: 500px;
+    }
+}
+@media (max-width: 767px){
+   .banner-special
+	{
+		display:none;
+	}
+	.cz-popup .inner{width:100%;}
+	.g-banner-popup h3{font-size:28px;}
+    p.text-n1{
+	    color: #666;
+	    font-family: sans-serif;
+	}
+	p.text-n2{
+	    font-family: UTM banqueR;
+	    font-size: 48px;
+	    height: 40px;
+	    line-height: 40px;
+	}
+	p.text-n3{
+	    height: 60px;
+	    overflow: hidden;
+	    line-height: 60px;
+	    margin-top: 15px;
+	}
+	p.text-n3 strong{
+	    color: #E52E04;
+	    font-family: UTM Bitsumishi Pro;
+	    font-size: 92px;   
+	}
+	span.text-4{
+	    margin-left: 10px;
+	    font-size: 32px;
+	}
+	p.text-n6{
+	    font-family: sans-serif;
+	    margin-bottom: 0px;
+	}
+}  
+@media (max-width: 575px){
+    .newsletter-main {
+        max-width: 100%;
+        width: 90%;
+    }
+    .newsletter-form .button{
+        font-size:  0px;
+        background: none;
+        right: 0;
+        top: 0;
+        padding: 8px 6px;
+    }
+    .newsletter-form .button .arrow_forward {
+        display: block;
+    }
+}
+@media (max-width: 479px){
+    .right-block {
+        padding: 0px 25px;
+    }
+    .innerbox-newsletter .newsletter_title { 
+        font-size: 25px;
+        margin-bottom:  30px;
+    }
+} 
+
+
+.lang-rtl .newsletter-form .button{
+    right: auto;
+    left: 3px;
+}
+.lang-rtl .left-block{
+    float: right;
+}
+.lang-rtl .right-block{
+    float: left;
+}
+.lang-rtl .checkbox{
+    right: auto;
+    left: 10px;
+}
+.lang-rtl .cz-newsletter-popup-close .cz_close{
+    right: auto;
+    left: 0px;
+}

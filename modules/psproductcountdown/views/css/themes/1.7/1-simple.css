@@ -1,0 +1,179 @@
+#products .psproductcountdown .count.curr, #products .psproductcountdown .count.bottom,
+.psproductcountdown .count.curr, .psproductcountdown .count.bottom {
+    display: none;
+}
+.psproductcountdown .hidden {
+    display: none;
+}
+.psproductcountdown { position: relative; }
+.product-counter {
+    padding: 10px 0;
+}
+.product-miniature .psproductcountdown, #product .psproductcountdown {
+    display: inline-block;
+    padding: 0;
+    /*padding-bottom: 0;
+    width: auto;
+    padding: 10px 10px 15px;
+    background: #dd959b;
+    border: 10px solid #fff;*/
+}
+#product .product-actions .psproductcountdown {
+    margin-bottom: 30px;	
+    display: inline-block;
+}
+
+
+.product-miniature:hover .psproductcountdown {
+    
+}
+#left-column .products .product_list li.item {
+    padding-right: 0;
+    padding-left: 0;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+
+.psproductcountdown {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.pspc-main .time {
+    margin: 0 5px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    height: 54px;
+    width: 54px;
+    max-width: 7em;
+    background: #fdf9f4;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#products .pspc-main .count, .pspc-main .count {
+	color: #fff;
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: .2px;
+    line-height: 30px;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: auto;
+}
+/*.pspc-main .time:after {
+    content: ":";
+    font-size: 30px;
+    position: absolute;
+    right: -18px;
+	color: #92bb64;
+    top: 10px;
+}*/
+.psproductcountdown .time:last-child:after { display: none; }
+.psproductcountdown .time::before {
+ 
+
+}
+#products .pspc-main .count,
+.pspc-main .count {
+    color: #202020;
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    line-height: 40px;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: auto;
+}
+.pspc-main .seconds .count,
+#products .pspc-main .seconds .count {
+    color: #fa9e05;
+}
+.pspc-main .label {
+	font-size: 11px;
+    text-transform: capitalize;
+    position: absolute;
+    top: 28px;
+    left: 0;
+    width: 100%;
+    color: #9d9d9d;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+}
+/*.pspc-main .time:after {
+    content: ":";
+    font-size: 30px;
+    position: absolute;
+    right: -11px;
+    color: #e4adb2;
+    top: 10px;
+}*/
+@media (max-width: 1199px) {
+    .pspc-main .time {
+        margin-left: 3px;
+        margin-right: 3px;
+        width: 45px;
+        height: 45px;
+    }
+    #products .pspc-main .count, .pspc-main .count{
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .pspc-main .label{
+        top: 20px;
+    }
+	/*.product-miniature .psproductcountdown, #product .psproductcountdown {
+		margin-left: -12px;
+	}*/
+}
+@media (max-width: 991px) and (min-width: 651px) {
+    /*.pspc-main .time { margin: 0px; }
+	.product-miniature .psproductcountdown { padding-left: 0; padding-right: 0;}
+	#products .pspc-main .count, .pspc-main .count { font-size: 17px; }
+	.psproductcountdown .time::before { left: 3px; }
+    .pspc-main .time:after { right: -5px; }
+    .pspc-main .label { font-size: 11px; }*/
+}
+@media (max-width: 991px){
+    .pspc-main .time {
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 54px;
+        height: 54px;
+    }
+     #products .pspc-main .count, .pspc-main .count{
+        font-size: 18px;
+        line-height: 35px;
+    }
+    .pspc-main .label {
+    top: 28px;
+}
+}
+@media (max-width: 767px) {
+	.product-miniature .psproductcountdown, #product .psproductcountdown {
+		margin-left: 0px;
+	}
+}
+@media (max-width: 480px) {
+}
+@media (max-width: 380px) {
+	.pspc-main .time:after { display: none; }
+    .pspc-main .time {
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+	
+}
