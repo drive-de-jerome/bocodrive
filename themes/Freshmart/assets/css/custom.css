@@ -1,0 +1,226 @@
+
+
+/********************************************************
+			Codezeel Custom Styles
+********************************************************/
+.cz-carousel {
+  display: none;
+  position: relative;
+  float: left;
+  width: 100%;
+  margin: 0;
+  -ms-touch-action: pan-y;
+}
+
+.owl-carousel .owl-wrapper {
+  display: none;
+  position: relative;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.owl-carousel .owl-wrapper-outer {
+  overflow: hidden;
+  position: relative;
+  float: left;
+  width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight {
+  -webkit-transition: height 500ms ease-in-out;
+  -moz-transition: height 500ms ease-in-out;
+  -ms-transition: height 500ms ease-in-out;
+  -o-transition: height 500ms ease-in-out;
+  transition: height 500ms ease-in-out;
+}
+.owl-carousel .owl-item {
+  float: left;
+}
+.owl-carousel .owl-item .manu_image a {
+  display: inline-block;
+}
+.owl-carousel .owl-item .manu_image a img {
+  max-width: 100%;
+}
+.owl-carousel .owl-item:hover a img {
+  border-color: blue;
+}
+.owl-carousel .owl-wrapper,
+.owl-carousel .owl-item {
+  /* fix */
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  text-align: center;
+}
+
+/* mouse grab icon */
+.grabbing {
+  cursor: url("../img/codezeel/grabbing.png") 8 8, move;
+}
+ 
+.customNavigation {
+  position: absolute;
+  width: 65px;
+  top: 0;
+  direction: ltr !important;
+  left: auto;
+  right: 15px;
+  z-index: 9;
+}
+.lastest_block .customNavigation {
+    top: -68px;
+}
+.customNavigation a {
+	font-size: 0px;
+    position: absolute;
+    font-weight: 300;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    padding: 0px;
+    color: #ffffff;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    border: 0;
+    background: #416929;
+}
+.customNavigation a.prev:before {
+    content: '\f104';
+    font-family: "FontAwesome";
+    font-size: 18px;
+    color: #ffffff;
+}
+.customNavigation a.next:before {
+    content: '\f105';
+    font-family: "FontAwesome";
+    font-size: 18px;
+    color: #ffffff;
+}
+.customNavigation a:hover{
+	background: #fa9e05;
+}
+.customNavigation a:hover:before{ color: #fff; }
+
+.customNavigation a.prev {
+  left: 0;
+}
+
+.customNavigation a.next {
+  right: 0
+}
+
+.customNavigation a.prev:hover{
+
+}
+
+.customNavigation a.next:hover{
+}
+@media (max-width: 479px) {
+	.lastest_block .customNavigation {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -30px;
+  }
+}
+
+@media (max-width: 991px) {
+	
+}
+
+#czleftbanner img,
+#czrightbanner img{
+	max-width: 100%;
+}	
+#czleftbanner li, #czrightbanner li {
+    display: inline-block;
+}
+#czleftbanner li a, #czrightbanner li a {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+#czleftbanner li a:before, #czrightbanner li a:before {
+    background: rgba(255,255,255,.5) none repeat scroll 0 0;
+    bottom: 20px;
+    content: "";
+    left: 20px;
+    opacity: 1;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+}
+
+#czleftbanner li:hover a:before, #czrightbanner li:hover a:before {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.top_button {
+    background: #fa9e05 ;
+    bottom: 20px;
+    cursor: pointer;
+    height: 40px;
+    padding: 7px 16px;
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    width: 40px;
+    z-index: 99;
+     -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #fa9e05;
+}
+.top_button:hover {
+    background: #fa9e05;
+}
+.top_button:hover::before{
+  color: #fff;
+}
+.top_button::before {
+    color: #ffffff;
+    content: "\f176";
+    font-family: "FontAwesome";
+    font-size: 18px;
+    line-height: 25px;
+}
+/* Flexslider */
+
+#index .spinner {
+    background: url(../img/codezeel/loading.gif) no-repeat center center #ffffff;
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100000;
+}

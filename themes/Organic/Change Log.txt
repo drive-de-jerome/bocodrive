@@ -1,0 +1,53 @@
+Theme PRS010023 Update History
+==============================
+
+Theme Version : 1.0.8
+=============
+## Date[13/01/2021]
+
+- Added all layout download link inside directory "Download Full Package Files"
+
+=================================================
+
+Theme Version : 1.0.7
+=============
+## Date[17/10/2020]
+
+- Added Product Zoom feature on product detail page
+- Added Lazy loading feature to increase prestashop store performance
+
+=================================================
+
+Theme Version : 1.0.6
+=============
+## Date[08/07/2020]
+
+- Added "CZ - Feature" Module for add compare and wishlist feature in this theme
+- Fixed minor css update
+
+-------------------------------
+
+Updated Files List
+-----------
+themes\Organic\assets\css\theme.css
+themes\Organic\assets\css\rtl.css
+themes\Organic\assets\css\custom.css
+
+themes\Organic\assets\js\cstom.js
+
+themes\Organic\config\theme.yml
+
+themes\Organic\modules\ps_customersignin\ps_customersignin.tpl
+
+themes\Organic\templates\catalog\_partials\miniatures\product.tpl
+themes\Organic\templates\catalog\_partials\miniatures\product-listgrid.tpl
+themes\Organic\templates\catalog\_partials\product-add-to-cart.tpl
+themes\Organic\templates\catalog\_partials\product-details.tpl
+themes\Organic\templates\catalog\_partials\product-variants.tpl
+
+
+=================================================
+
+Theme Version : 1.0.0
+=============
+- Initial Release

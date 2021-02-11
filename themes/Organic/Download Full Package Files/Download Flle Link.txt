@@ -1,0 +1,14 @@
+All Layouts Package download and installation Guide
+=============
+Open this download layout package link URL in your webbrowser to download layout you want to use for your prestahop store. 
+After download complete extract that zip file and follow theme installation documentation step by step to install that theme layout on your store.
+https://demo.codezeel.com/prestashop/DoWnloAdPacKaGEs/23pokjuhytbfdrvmvxdWtysFopQaghfaqjud/
+
+
+
+
+Other Modules Download and installation Guide
+=============
+Open this URL in your browser to download zip file which include modules 1) Online CHAT 2) Cookie Information and 3) Newsletter Popup
+After download complete extract this zip file and read "Module Installation Help" text file to install all these modules one by one. 
+https://demo.codezeel.com/prestashop/DoWnloAdPacKaGEs/Other_Modules.zip
