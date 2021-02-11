@@ -319,7 +319,8 @@ html {
 	-webkit-tap-highlight-color: transparent;
 }
 body {
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Lobster", Arial, sans-serif;
+        /* font-family: 'Lobster', arial;*/
 	font-size: 1rem;
 	line-height: 1.5;
 	color: #808080;
@@ -5228,7 +5229,8 @@ button.close {
 	position: absolute;
 	z-index: 1070;
 	display: block;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Lobster", Arial, sans-serif;
+        /* font-family: 'Lobster', arial;*/
 	font-style: normal;
 	font-weight: normal;
 	letter-spacing: normal;
@@ -5328,7 +5330,8 @@ button.close {
 	display: block;
 	max-width: 276px;
 	padding: 1px;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Lobster", Arial, sans-serif;
+        /* font-family: 'Lobster', arial;*/
 	font-style: normal;
 	font-weight: normal;
 	letter-spacing: normal;
@@ -6313,14 +6316,15 @@ html {
 	height: 100%;
 }
 body {
-	font-family: 'Poppins', sans-serif;
+	/*font-family: 'Poppins', sans-serif;*/
+        font-family: 'Lobster', arial;
 	font-size: 12px;
 	font-weight: 400;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	color: #808080;
 	line-height: 26px;
-	background: #ffffff url(../img/codezeel/body-bkg.jpg) repeat fixed center center;
+	background: #ffffff url(../img/bocodrive/body-bkg.jpg) repeat fixed center center;
 	position: relative;
 	 letter-spacing: 0.7px;
 }
@@ -6387,7 +6391,7 @@ hr {
 	color: #262626;
 }
 .btn {
-	font: 500 13px/22px 'Poppins', sans-serif;
+	font: 500 13px/22px 'Lobster', sans-serif;
 	text-transform: uppercase;
 	display: inline-block;
 	text-align: center;
@@ -6848,7 +6852,8 @@ small.value {
     color: #fff;
     font-size: 13px;
     font-weight: 400;
-    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Poppins', sans-serif;*/
+    font-family: 'Lobster', arial;
 }
 .search-widget form input[type=text]:focus {
 	border-color: #aaa;
@@ -7013,7 +7018,7 @@ small.value {
 }
 .top-menu a[data-depth="0"] {
     padding: 15px 15px 15px;
-    font: 500 14px/20px 'Poppins', sans-serif;
+    font: 500 14px/20px 'Lobster', sans-serif;
     color: #ffffff;
     display: block;
     text-transform: capitalize;
@@ -7054,7 +7059,7 @@ small.value {
     right: auto;
     content: "";
     font-family: 'FontAwesome';
-    background: url(../img/codezeel/arrow.png) no-repeat scroll 0px -30px;
+    background: url(../img/bocodrive/arrow.png) no-repeat scroll 0px -30px;
     width: 10px;
     height: 10px;
 }
@@ -8616,7 +8621,7 @@ body#checkout #gift_message {
     color: #222222;
     position: relative;
     text-align: left;
-    font: 600 20px/30px 'Poppins', sans-serif;
+    font: 600 20px/30px 'Lobster', sans-serif;
     text-transform: capitalize !important;
     border-bottom: 1px solid #e6e6e6;
         letter-spacing: 0.2px;
@@ -8707,7 +8712,8 @@ body#checkout #gift_message {
     text-decoration: none;
     font-weight: 400;
     text-transform: capitalize;
-    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Poppins', sans-serif;*/
+    font-family: 'Lobster', arial;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -9567,7 +9573,7 @@ body#checkout #gift_message {
 	margin: 5px 5px 0 0px;
 }
 .products-selection .display li#grid a {
-	background: url(../img/codezeel/sprite.png) no-repeat scroll -6px -33px transparent;
+	background: url(../img/bocodrive/sprite.png) no-repeat scroll -6px -33px transparent;
 	height: 24px;
 	float: left;
 	width: 20px;
@@ -9592,7 +9598,7 @@ body#checkout #gift_message {
 	margin: 5px 0 0 0;
 }
 .products-selection .display li#list a {
-	background: url(../img/codezeel/sprite.png) no-repeat scroll -43px -33px transparent;
+	background: url(../img/bocodrive/sprite.png) no-repeat scroll -43px -33px transparent;
 	height: 24px;
 	width: 20px;
 	float: right;
@@ -9824,13 +9830,13 @@ body#checkout #gift_message {
 	display: block;
 }
 .block-categories .block_content .collapse-icons .add {
-	background: url(../img/codezeel/sprite.png) no-repeat scroll -4px -72px transparent;
+	background: url(../img/bocodrive/sprite.png) no-repeat scroll -4px -72px transparent;
 	width: 16px;
 	height: 16px;
 	float: left;
 }
 .block-categories .block_content .collapse-icons .remove {
-	background: url(../img/codezeel/sprite.png) no-repeat scroll -4px -101px transparent;
+	background: url(../img/bocodrive/sprite.png) no-repeat scroll -4px -101px transparent;
 	width: 16px;
 	height: 16px;
 	float: left;
@@ -9923,7 +9929,7 @@ body#checkout #gift_message {
     color: #000;
     text-transform: capitalize;
     padding: 10px 15px;
-    font: 500 15px/24px 'Poppins', sans-serif;
+    font: 500 15px/24px 'Lobster', sans-serif;
     background: #f0f0f0;
     margin: 0;
     border-radius: 5px ;
@@ -12051,7 +12057,7 @@ ul.product-flags li.new {
     padding: 65px 30px 59px;
     overflow: hidden;
     color: #c6c6c6;
-   	background: #46702c;
+    background: #4F833A;/*#46702c*/
     margin: 0 -30px;
     
 }
@@ -12067,7 +12073,7 @@ ul.product-flags li.new {
     text-align: center;
     position: relative;
     padding: 17px 0 6px 60px;
-    background: url(../img/codezeel/newsletter.png) no-repeat scroll 0 8px transparent;
+    background: url(../img/bocodrive/newsletter.png) no-repeat scroll 0 8px transparent;
 }
 
 .footer-container .footer {
@@ -12131,7 +12137,7 @@ ul.product-flags li.new {
 .footer-container .links h3,
 .footer-container .links h3 a {
 	color: #ffffff;
-    font: 600 16px/26px 'Poppins', sans-serif;
+    font: 600 16px/26px 'Lobster', sans-serif;
     text-transform: capitalize !important;
     margin: 0 0 10px 0;
     cursor: pointer;
@@ -12154,7 +12160,7 @@ ul.product-flags li.new {
 }
 .footer-container #czfootercmsblock .footertitle {
     color: #ffffff;
-    font: 600 16px/26px 'Poppins', sans-serif;
+    font: 600 16px/26px 'Lobster', sans-serif;
     text-transform: capitalize !important;
     margin: 0 0 10px 0;
     cursor: pointer;
@@ -12165,7 +12171,7 @@ ul.product-flags li.new {
 }
 .footer-container #czfootercmsblock .footerlogo {
 	margin-bottom: 20px;
-	background: transparent url(../img/codezeel/footer-logo.png) no-repeat scroll 0 0;
+	background: transparent url(../img/bocodrive/footer-logo.png) no-repeat scroll 0 0;
 	margin-bottom: 25px;
 	max-width: 314px;
 	min-height: 65px;
@@ -12175,7 +12181,7 @@ ul.product-flags li.new {
 	color: #fff;
     padding: 15px 0 15px;
     border-top: 1px solid #6b8d56;
-    background-color: #46702c;
+    background-color: #4F833A;/*#46702c*/
     margin: 0 -30px;
 }
 .footer-after a {
@@ -12666,7 +12672,7 @@ ul.product-flags li.new {
 
 #header .header-top {
     text-align: center;
-    background-color: #46702c;
+    background-color: #4F833A;/*#46702c*/
     margin: 0 -30px;
 }
 #header .header-top > .container {
@@ -12695,7 +12701,7 @@ ul.product-flags li.new {
 	float: left;
 	padding: 0 ;
 	cursor: pointer;
-	background: url(../img/codezeel/top-icon.png) no-repeat scroll 0px 0px transparent;
+	background: url(../img/bocodrive/top-icon.png) no-repeat scroll 0px 0px transparent;
 	width: 30px;
 	height: 30px;
 }
@@ -12753,7 +12759,7 @@ ul.product-flags li.new {
     display: block;
     text-align: left;
     line-height: 24px;
-    background: url(../img/codezeel/top-icon.png) no-repeat scroll 0px -135px transparent;
+    background: url(../img/bocodrive/top-icon.png) no-repeat scroll 0px -135px transparent;
     transition: none;
     width: auto;
     height: 45px;
@@ -12882,7 +12888,7 @@ ul.product-flags li.new {
 	position: absolute;
 	right: 0px;
 	top: 4px;
-	background: url(../img/codezeel/delete.png) right center no-repeat;
+	background: url(../img/bocodrive/delete.png) right center no-repeat;
 	width: 12px;
 	height: 12px;
 	margin-right: 3px;
@@ -12924,7 +12930,7 @@ ul.product-flags li.new {
 	text-align: center;
 	cursor: pointer;
 	z-index: 9;
-	background: url(../img/codezeel/top-icon.png) no-repeat scroll 0px 6px transparent;
+	background: url(../img/bocodrive/top-icon.png) no-repeat scroll 0px 6px transparent;
 	height: 30px;
 	width: 30px;
     transition: none;
@@ -13097,7 +13103,7 @@ ul.product-flags li.new {
 #main h2.h2,
 #main .page-header h1,
 .block-category h1 {
-	font: 600 20px/26px 'Poppins', sans-serif;
+	font: 600 20px/26px 'Lobster', sans-serif;
 	color: #000000;
 	text-transform: capitalize;
 	margin-bottom: 25px;
@@ -13266,7 +13272,7 @@ ul.product-flags li.new {
         -webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 	}
 	#header .search-widget form button[type=submit] {
-	   	background: url(../img/codezeel/top-icon.png) no-repeat scroll 7px -295px #fa9e05;
+	   	background: url(../img/bocodrive/top-icon.png) no-repeat scroll 7px -295px #fa9e05;
 	    font-size: 0;
 	    padding: 0;
 	    border-radius: 0;
@@ -13510,7 +13516,7 @@ ul.product-flags li.new {
 }
 #czservicecmsblock .service_container .service-area .service-fourth .service-icon {
 	position: relative;
-    background: url(../img/codezeel/service-icon.png) no-repeat scroll;
+    background: url(../img/bocodrive/service-icon.png) no-repeat scroll;
     float: left;
     margin-top: 0px;
     height: 40px;
@@ -13721,7 +13727,7 @@ ul.product-flags li.new {
     margin-top: 20px;
 }
 #cztestimonialcmsblock .testimonial_container .testimonial-area ul#testimonial-carousel li.item .testimonial-detail .quote_img {
-    background: transparent url(../img/codezeel/quote.png) no-repeat scroll left 10px;
+    background: transparent url(../img/bocodrive/quote.png) no-repeat scroll left 10px;
     height: 50px;
     width: 50px;
     display: inline-block;
@@ -13735,7 +13741,7 @@ ul.product-flags li.new {
     padding-top: 5px;
 }
 #cztestimonialcmsblock .testimonial_container .testimonial-area ul#testimonial-carousel li.item .description::after {
-	background: url(../img/codezeel/bracket.png) no-repeat scroll right 0; 
+	background: url(../img/bocodrive/bracket.png) no-repeat scroll right 0; 
 	content: "";
 	position: absolute;
 	right: 0px;
@@ -13744,7 +13750,7 @@ ul.product-flags li.new {
 	width: 20px;
 }
 #cztestimonialcmsblock .testimonial_container .testimonial-area ul#testimonial-carousel li.item .description::before {
-	background: transparent url(../img/codezeel/bracket.png) no-repeat scroll 0 0;
+	background: transparent url(../img/bocodrive/bracket.png) no-repeat scroll 0 0;
 	content: "";
 	position: absolute;
 	left: 50px;
@@ -13803,10 +13809,10 @@ ul.product-flags li.new {
     z-index: 9;
     text-align: center;
     margin: 0 auto;
-    background: url(../img/codezeel/testimonial-arrow.png) no-repeat 0 0;
+    background: url(../img/bocodrive/testimonial-arrow.png) no-repeat 0 0;
 }
 #cztestimonialcmsblock .customNavigation a {
-	 background: url(../img/codezeel/testimonial-arrow.png) no-repeat 0 0;
+	 background: url(../img/bocodrive/testimonial-arrow.png) no-repeat 0 0;
 }
 #cztestimonialcmsblock .customNavigation a.prev {
     left: -20px;
@@ -14081,7 +14087,7 @@ ul.product-flags li.new {
 
 #header .header-top .header-cms-block .header-cms {
 	padding-left: 42px;
-	background: url(../img/codezeel/top-icon.png) no-repeat scroll 0px -2px transparent;
+	background: url(../img/bocodrive/top-icon.png) no-repeat scroll 0px -2px transparent;
 	line-height: 24px;
 }
 #header .header-top .header-cms-block .header-cms:hover {
