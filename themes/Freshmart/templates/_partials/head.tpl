@@ -58,6 +58,9 @@
 <!-- Codezeel added -->
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
 
+<!-- Boc'O Drive added -->
+<link href="https://fr.allfont.net/allfont.css?fonts=lobster" rel="stylesheet" type="text/css" />
+
 {block name='stylesheets'}
   {include file="_partials/stylesheets.tpl" stylesheets=$stylesheets}
 {/block}
